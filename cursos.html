@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos | Instituto Arkham do Saber</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <figure>
+            <img src="images/logo.png" alt="Logo IAS" width="40" height="40" style="border-radius: 50%;">
+            <figcaption>I.A.S</figcaption>
+        </figure>
+
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('active')">☰</button>
+    </header>
+
+    <main>
+        <section id="introducao">
+            <h1>Nossos<br>Programas.</h1>
+            <p>O Instituto Arkham do Saber oferece cursos técnicos e de graduação voltados à formação de profissionais qualificados para o mercado de trabalho e para o desenvolvimento de Gotham City.</p>
+        </section>
+
+        <section id="lista-cursos">
+            <div class="grid-cards">
+                <!-- Curso 1 -->
+                <article class="card">
+                    <img src="images/curso-informatica.jpg" alt="Informática">
+                    <h3>Técnico em Informática</h3>
+                    <p>Formação para desenvolvimento de sistemas, manutenção e suporte técnico. Parceria com a GCPD.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; color: #888; font-size: 0.9rem;">
+                        <li>Duração: 2 anos</li>
+                        <li>Turno: Vespertino</li>
+                        <li>Carga: 1.200h</li>
+                    </ul>
+                </article>
+
+                <!-- Curso 2 -->
+                <article class="card">
+                    <img src="images/curso-administracao.jpg" alt="Administração">
+                    <h3>Técnico em Administração</h3>
+                    <p>Capacitação para atuar em rotinas administrativas, gestão de pessoas, finanças e logística.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; color: #888; font-size: 0.9rem;">
+                        <li>Duração: 2 anos</li>
+                        <li>Turno: Noturno</li>
+                        <li>Carga: 1.200h</li>
+                    </ul>
+                </article>
+
+                <!-- Curso 3 -->
+                <article class="card">
+                    <img src="images/curso-enfermagem.jpg" alt="Enfermagem">
+                    <h3>Técnico em Enfermagem</h3>
+                    <p>Atuação em hospitais e clínicas com foco no cuidado humanizado. Parceria com o Hospital Geral.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; color: #888; font-size: 0.9rem;">
+                        <li>Duração: 3 anos</li>
+                        <li>Turno: Matutino</li>
+                        <li>Carga: 1.800h</li>
+                    </ul>
+                </article>
+
+                <!-- Curso 4 -->
+                <article class="card">
+                    <img src="images/curso-computacao.jpg" alt="Computação">
+                    <h3>Licenciatura em Computação</h3>
+                    <p>Formação de professores para o ensino de informática e inclusão digital na educação básica.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; color: #888; font-size: 0.9rem;">
+                        <li>Duração: 4 anos</li>
+                        <li>Turno: Noturno</li>
+                        <li>Carga: 2.800h</li>
+                    </ul>
+                </article>
+
+                <!-- Curso 5 -->
+                <article class="card">
+                    <img src="images/curso-meioambiente.jpg" alt="Meio Ambiente">
+                    <h3>Técnico em Meio Ambiente</h3>
+                    <p>Projetos de preservação ambiental, gestão de resíduos e recuperação das áreas verdes de Gotham.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; color: #888; font-size: 0.9rem;">
+                        <li>Duração: 2 anos</li>
+                        <li>Turno: Vespertino</li>
+                        <li>Carga: 1.200h</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="comparativo">
+            <h2>Comparativo Rápido</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Duração</th>
+                            <th>Turno</th>
+                            <th>Carga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Informática</td><td>2 anos</td><td>Vespertino</td><td>1.200h</td></tr>
+                        <tr><td>Administração</td><td>2 anos</td><td>Noturno</td><td>1.200h</td></tr>
+                        <tr><td>Enfermagem</td><td>3 anos</td><td>Matutino</td><td>1.800h</td></tr>
+                        <tr><td>Computação</td><td>4 anos</td><td>Noturno</td><td>2.800h</td></tr>
+                        <tr><td>Meio Ambiente</td><td>2 anos</td><td>Vespertino</td><td>1.200h</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <strong>Instituto Arkham do Saber</strong><br>
+            Ilha Arkham, Setor 7 — Gotham City
+        </address>
+        <p>&copy; 2026 IAS. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

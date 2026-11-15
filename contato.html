@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Instituto Arkham do Saber</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <figure>
+            <img src="images/logo.png" alt="Logo IAS" width="40" height="40" style="border-radius: 50%;">
+            <figcaption>I.A.S</figcaption>
+        </figure>
+
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('active')">☰</button>
+    </header>
+
+    <main>
+        <section id="contato-header">
+            <h1>Inicie sua<br>Jornada.</h1>
+            <p>Preencha o formulário abaixo ou visite nosso campus na Ilha Arkham.</p>
+        </section>
+
+        <section id="formulario">
+            <form action="#" method="POST">
+                <label for="nome">Nome Completo *</label>
+                <input type="text" id="nome" name="nome" required minlength="5">
+
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto *</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione...</option>
+                    <option value="cursos">Informações sobre cursos</option>
+                    <option value="inscricao">Inscrições</option>
+                    <option value="parceria">Parcerias</option>
+                </select>
+
+                <label for="mensagem">Mensagem *</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required minlength="20"></textarea>
+
+                <div style="display: flex; align-items: center; gap: 10px; margin-top: 1rem;">
+                    <input type="checkbox" id="privacidade" required style="width: 20px; height: 20px;">
+                    <label for="privacidade" style="margin: 0; font-size: 0.9rem;">Aceito a política de privacidade.</label>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section id="info">
+            <h2>Onde Estamos</h2>
+            <p>Ilha Arkham, Setor 7 — Gotham City, NJ, 07001</p>
+            <p>Telefone: (201) 555-01995</p>
+            <p>E-mail: contato@ihs.gotham.edu</p>
+            <br>
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-74.05%2C40.70%2C-73.95%2C40.75&amp;layer=mapnik" width="100%" height="400" style="border: 1px solid #333; border-radius: 10px; filter: invert(90%) hue-rotate(180deg);" loading="lazy"></iframe>
+            <p style="font-size: 0.8rem; margin-top: 1rem; color: #555;">* O mapa foi invertido para combinar com o tema escuro.</p>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <strong>Instituto Arkham do Saber</strong><br>
+            Ilha Arkham, Setor 7 — Gotham City
+        </address>
+        <p>&copy; 2026 IAS. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
