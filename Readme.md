@@ -9,25 +9,27 @@ Este é o repositório do **Trabalho 2** da disciplina de Desenvolvimento Web. O
 ---
 
 ## 👤 Autor
-* **Nome:** [Seu Nome Completo Aqui]
-* **Curso:** [Seu Curso Aqui]
-* **Instituição:** [Sua Instituição Aqui]
+**Instituição:** Instituto Arkham do Saber (IAS)  
+**Disciplina:** Desenvolvimento de Software para Web  
+**Trilha:** 02 — ESTILIZAÇÃO E RESPONSIVIDADE COM CSS
 
 ---
 
 ## 🎯 Objetivos Alcançados (Trabalho 2)
-- [x] **Design Visual Premium:** Estética inspirada em sites premiados (Awwwards), com uso de fundo escuro, tipografia gigante e minimalismo.
-- [x] **Paleta de Cores:** Alto contraste (WCAG AA) utilizando Preto Profundo (`#0a0a0a`), Branco Off-white (`#f4f4f4`) e Vermelho Vibrante (`#e63946`) como cor de destaque.
-- [x] **Tipografia:** Uso da fonte *Montserrat* para títulos (impacto visual) e *Inter* para textos de leitura (legibilidade), via Google Fonts.
-- [x] **Responsividade Total (Mobile First):** Adaptação para Celular (< 768px), Tablet e Desktop (>= 1024px) com Media Queries.
-- [x] **Layout com Flexbox e Grid:** 
+- ✅ Aplicar estilos CSS de forma organizada e eﬁciente
+- ✅ Criar layouts responsivos usando Flexbox e/ou Grid
   - Grid para organizar os cards de cursos e professores.
   - Flexbox para alinhar o cabeçalho (Header), formulário e rodapé.
-- [x] **Componentes Especiais:** 
+- ✅ Implementar design adaptativo com Media Queries
   - Formulário com design *line-bottom* (bordas apenas embaixo) e validações HTML5.
   - Tabela comparativa minimalista.
   - Menu Hambúrguer animado para dispositivos móveis.
-- [x] **Micro-interações (Bônus):** Imagens que ganham cor ao passar o mouse (transição de *grayscale* para colorido) e botões com efeito de elevação.
+- ✅ Aplicar princípios de design visual (hierarquia, contraste, espaçamento)
+  - Paleta de Cores: Alto contraste (WCAG AA) utilizando Preto Profundo (`#0a0a0a`), Branco Off-white (`#f4f4f4`) e Vermelho Vibrante (`#e63946`) como cor de destaque.
+- ✅ Utilizar frameworks CSS (Bootstrap ou Tailwind)
+- ✅ **Tipografia:** Uso da fonte *Montserrat* para títulos (impacto visual) e *Inter* para textos de leitura (legibilidade), via Google 
+- ✅ Adaptação para Celular (< 768px), Tablet e Desktop (>= 1024px) com Media Queries.
+- ✅ Imagens que ganham cor ao passar o mouse (transição de *grayscale* para colorido) e botões com efeito de elevação.
 
 ---
 
